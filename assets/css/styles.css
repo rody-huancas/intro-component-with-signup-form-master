@@ -112,6 +112,10 @@ body {
   outline: none;
 }
 
+.container .form .form-container .group-form .field .input::placeholder {
+  font-weight: 700;
+}
+
 .container .form .form-container .submit {
   background-color: var(--Green);
   border: none;
@@ -131,7 +135,7 @@ body {
 
 .container .form .form-container .form-text__bottom {
   padding: 0.5rem;
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--GrayishBlue);
 }
 
@@ -152,7 +156,7 @@ body {
 
 .error {
   color: var(--Red);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: italic;
   text-align: right;
   padding-top: 0.4rem;
@@ -162,3 +166,26 @@ body {
   color: var(--Red);
 }
 /********************************/
+
+/* responsive */
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+  }
+
+  .container .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container .left .title {
+    font-size: 1.875rem;
+    padding-bottom: 1rem;
+  }
+
+  .container .form {
+    width: 100%;
+  }
+}
