@@ -35,25 +35,28 @@
             <form class="form-content">
               <!-- name -->
               <div class="group-form">
-                <div class="field">
+                <div class="field field-name">
                   <input
                     class="input"
                     type="text"
                     id="name"
+                    value=""
                     placeholder="First Name"
                   />
                   <img
-                    class="error active"
+                    class="error-name active error"
                     src="images/icon-error.svg"
                     alt=""
                   />
                 </div>
-                <p class="error active">Fisrt name cannot be empty</p>
+                <p class="error-name active error">
+                  Fisrt name cannot be empty
+                </p>
               </div>
 
               <!-- last name -->
               <div class="group-form">
-                <div class="field">
+                <div class="field field-last">
                   <input
                     class="input"
                     type="text"
@@ -61,17 +64,17 @@
                     placeholder="Last Name"
                   />
                   <img
-                    class="error active"
+                    class="error-last active error"
                     src="images/icon-error.svg"
                     alt=""
                   />
                 </div>
-                <p class="error active">Last name cannot be empty</p>
+                <p class="error-last active error">Last name cannot be empty</p>
               </div>
 
               <!-- email -->
               <div class="group-form">
-                <div class="field">
+                <div class="field field-email">
                   <input
                     class="input"
                     type="email"
@@ -79,17 +82,19 @@
                     placeholder="Email Address"
                   />
                   <img
-                    class="error active"
+                    class="error-email active error"
                     src="images/icon-error.svg"
                     alt=""
                   />
                 </div>
-                <p class="error active">Looks like this is not an email</p>
+                <p class="error-email active error">
+                  Looks like this is not an email
+                </p>
               </div>
 
-              <!-- email -->
+              <!-- password -->
               <div class="group-form">
-                <div class="field">
+                <div class="field field-password">
                   <input
                     class="input"
                     type="password"
@@ -97,19 +102,19 @@
                     placeholder="Password"
                   />
                   <img
-                    class="error active"
+                    class="error-password active error"
                     src="images/icon-error.svg"
                     alt=""
                   />
                 </div>
-                <p class="error active" s>Password cannot be empty</p>
+                <p class="error-password active error" s>
+                  Password cannot be empty
+                </p>
               </div>
 
-              <input
-                class="submit"
-                type="submit"
-                value="Claim your free trial"
-              />
+              <button class="submit" type="submit">
+                Claim your free trial
+              </button>
             </form>
             <p class="form-text__bottom">
               By clicking the button, you are agreeing to our

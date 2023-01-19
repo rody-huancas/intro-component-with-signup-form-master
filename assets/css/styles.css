@@ -24,16 +24,6 @@ body {
   background-color: var(--Red);
 }
 
-/* activar cuando haya un error */
-.active {
-  display: none;
-}
-
-.error-field {
-  border: 2px solid red;
-}
-/********************************/
-
 .main {
   height: 100vh;
   background-image: url("../../images/bg-intro-desktop.png");
@@ -122,14 +112,6 @@ body {
   outline: none;
 }
 
-.container .form .form-container .group-form .error {
-  color: var(--Red);
-  font-size: 12px;
-  font-style: italic;
-  text-align: right;
-  padding-top: 0.4rem;
-}
-
 .container .form .form-container .submit {
   background-color: var(--Green);
   border: none;
@@ -158,3 +140,25 @@ body {
   color: var(--Red);
   text-decoration: none;
 }
+
+/* activar cuando haya un error */
+.active {
+  display: none;
+}
+
+.error-field {
+  border: 2px solid red;
+}
+
+.error {
+  color: var(--Red);
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  padding-top: 0.4rem;
+}
+
+.error-email__input {
+  color: var(--Red);
+}
+/********************************/
